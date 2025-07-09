@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-family: Arial, sans-serif;
+}
+
+.cuadro {
+    background-color: #054459;
+    padding: 25px;
+    border-radius: 20px;
+    border: 5px solid #042349;
+    box-shadow: 0 0 10px #000;
+    width: 450px;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.a label{
+    min-width:120px;
+    font-size:16px;
+    margin-right:10px;
+}
+
+.a input{
+    flex:1;     
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.letra1 label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white;
+}
+
+input[type="submit"] {
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* EJERCICIO 2 */
+.cuadro2 {
+    background-color: #E84C23;
+    padding: 25px;
+    border-radius: 20px;
+    border: 5px solid #9a2e13;
+    box-shadow: 0 0 10px #000;
+    width: 600px;
+}
+
+.b{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.b label{
+    min-width:250px;
+    font-size:16px;
+    margin-right:10px;
+}
+
+.b input{
+    flex:1;     
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:10px;
+}
+
+/* EJERCICIO 3 */
+.cuadro3 {
+    background-color: #FFBC14;
+    padding: 25px;
+    border-radius: 20px;
+    border: 5px solid #ae7e05;
+    box-shadow: 0 0 10px #000;
+    width: 600px;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.c label{
+    min-width:160px;
+    font-size:16px;
+    margin-right:10px;
+}
+
+.c input{
+    flex:1;     
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:10px;
+}
+
+/* EJERCICIO 4 */
+.cuadro4 {
+    background-color: #9619b1;
+    padding: 25px;
+    border-radius: 20px;
+    border: 5px solid #5e0672;
+    box-shadow: 0 0 10px #000;
+    width: 600px;
+}
+
+.d{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.d label{
+    min-width:190px;
+    font-size:16px;
+    margin-right:10px;
+}
+
+.d input{
+    flex:1;     
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    font-size:10px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #aca9a9;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #1a5067;
+    color: white;
+}
